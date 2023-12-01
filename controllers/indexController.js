@@ -38,8 +38,6 @@ const about =
         subDescription: " Excepteur sint occaecat cupidatat non proident, sunt in culpa qui  officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
 
-
-
 const indexController = {
     home: (req,res)=>{
         res.render("home", {title:"Pimienta & Sal", productos, about});
